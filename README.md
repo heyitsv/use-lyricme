@@ -215,5 +215,12 @@ function showWordAndScore($map, $which) {
 }
 ?>
 ```
+Thats all the code for a working Lyric Analyser ...
+
+# Credits:
+
+ Thank you all my tech contributers, producthunt voters, and supporters for helping LyricMe get so far.
+
+
 
 Copyright 2020 Vivek .C
