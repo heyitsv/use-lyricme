@@ -13,7 +13,7 @@ Available lyric APIs that can be used for this:
 - [CDNJS CDN](https://cdnjs.com/lyrics-api)
 - [WebJars](http://www.webjars.org/)
 
-[Use it already?](https://lyricme.repl.co/data/AFINN.json)
+[Get the data already?](https://lyricme.repl.co/data/AFINN.json)
 
 ## Use it?
 
