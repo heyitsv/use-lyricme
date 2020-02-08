@@ -31,16 +31,6 @@ defined('DICTIONARY_AFINN') or define("DICTIONARY_AFINN", "data/AFINN.json");
 ?>
 ```
 
-```php
-<?php
-defined('BASE_URL') or define("BASE_URL", "https://www.lyricsmania.com");
-defined('BASE_SEARCH_URL') or define("BASE_SEARCH_URL", "https://www.lyricsmania.com/search.php?k="); // BASE_SEARCH_URL + artist_first + artist_last
-defined('TEXT') or define("TEXT", "text");
-defined('URL') or define("URL", "URL");
-
-defined('DICTIONARY_AFINN') or define("DICTIONARY_AFINN", "data/AFINN.json");
-?>
-```
 Step 2: make a folder called data, then inside the folder make a file AFINN.json and copy paste the code below. This is all the data for the website.
 
 ```json
@@ -50,7 +40,8 @@ Step 2: make a folder called data, then inside the folder make a file AFINN.json
 Step 3: Make a file called `lyrics.php` and paste this code. This imports all the lyrics from your API into a site. 
 
 
-```<?php
+```php
+<?php
 require_once('./lyricsHelper.php');
 
 if(!isset($_GET['song'])) {
